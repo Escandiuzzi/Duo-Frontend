@@ -1,0 +1,99 @@
+.main-div {
+    height: 75px;
+    width: 55%;
+    background-color: #a141eb;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.inner-div {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.franchisee-button {
+    background-color: #E1A707;
+    color: white;
+    font-family: 'Montserrat';
+    width: 270px;
+    border-radius: 30px;
+    border-width: 0px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.franchisee-button .icon {
+    background: url(../Assets/Icons/editar.png) no-repeat left center;
+    padding: 10px 25px 10px 10px;
+}
+
+.franchisee-button:hover {
+    background-color: #CF9906;
+}
+
+.consultant-button {
+    width: 270px;
+    background-color: #7928B7;
+    color: white;
+    font-family: 'Montserrat';
+    border-radius: 30px;
+    border-width: 0px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.consultant-button .icon {
+    background: url(../Assets/Icons/seja_consultor.png) no-repeat left center;
+    padding: 10px 20px 10px 10px;
+}
+
+.consultant-button:hover {
+    background-color: #6a24a0;
+}
+
+.buy-button {
+    background-color: #0BC4E9;
+    color: white;
+    width: 180px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border-radius: 30px;
+    border-width: 0px;
+    margin: 10px 10px 10px 10px;
+    padding: 15px;
+}
+
+.buy-button:hover {
+    background-color: #09aecf;
+}
+
+.restrict-button {
+    background-color: #E1A707;
+    border-width: 0px;
+    color: white;
+    font-family: 'Montserrat';
+    position: absolute;
+    top: 0;
+    right: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0px 0px 0px 0px;
+    padding: 15px;
+}
+
+.restrict-button .icon {
+   background: url(../Assets/Icons/area_restrita.png) no-repeat left center;
+   padding: 10px 20px 10px 10px;
+}
+
+.restrict-button:hover {
+    background-color: #CF9906;
+ }
